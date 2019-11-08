@@ -69,7 +69,7 @@ public class Registration extends HttpServlet {
 			preparedStatement.setString(13, password);
 			preparedStatement.executeUpdate();
 
-			System.out.println("ffffffffffff");
+		
 			printWriter.println("Successfully Registered");
 			connection.close();
 
