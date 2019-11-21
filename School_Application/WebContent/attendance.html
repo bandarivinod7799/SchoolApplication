@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Attendance</title>
+</head>
+<body>
+	<form action="Attendance">
+		<h1 align="center">Welcome To Attendance Page</h1>
+		RollNumber:<input type="text" name="rollnumber" required="required">
+		<table>
+			<tr>
+				<td>Month</td>
+				<td>:</td>
+				<td><select name="month"><option value="select">---select---</option>
+						<option value="January">January</option>
+						<option value="February">February</option>
+						<option value="March">March</option>
+						<option value="April">April</option>
+						<option value="May">May</option>
+						<option value="June">June</option>
+						<option value="July">July</option>
+						<option value="August">August</option>
+						<option value="September">September</option>
+						<option value="October">October</option>
+						<option value="November">November</option>
+						<option value="December">December</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>Week</td>
+				<td>:</td>
+				<td><select name="week"><option value="select">---select--</option>
+						<option value="1st Week">1 Week</option>
+						<option value="2nd Week">2 Week</option>
+						<option value="3rd Week">3 Week</option>
+						<option value="4th Week">4 Week</option>
+						<option value="5th Week">5 Week</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>Attendance</td>
+				<td>:</td>
+				<td><input type="checkbox" name="attendance" value="Mon">Monday
+					<input type="checkbox" name="attendance" value="-Tue">Tuesday
+					<input type="checkbox" name="attendance" value="-Wed">Wednesday
+					<input type="checkbox" name="attendance" value="-Thur">Thursday
+					<input type="checkbox" name="attendance" value="-Fri">Friday
+					<input type="checkbox" name="attendance" value="-Sat">Saturday
+					<input type="checkbox" name="attendance" value="-Sun">Sunday
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><input type="submit" value="Update Attendance"></td>
+			</tr>
+
+		</table>
+	</form>
+
+</body>
+</html>
